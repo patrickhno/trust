@@ -249,3 +249,11 @@ Add this to your devise initializer:
 ``` Ruby
 DeviseController.trustee :off
 ```
+
+## Active admin integration
+
+The same goes for Active admin:
+
+``` Ruby
+ActiveAdmin::BaseController.trustee :off
+```
